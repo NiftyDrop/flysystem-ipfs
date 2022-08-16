@@ -1,10 +1,10 @@
 {
-    "name": "openwse/flysystem-ipfs",
+    "name": "niftydrop/flysystem-ipfs",
     "type": "library",
     "authors": [
         {
-            "name": "openwse",
-            "email": "openwse@gmail.com"
+            "name": "NiftyDrop",
+            "email": "niftydrop@gmail.com"
         }
     ],
     "description": "Flysystem adapter for the IPFS API",
@@ -13,12 +13,12 @@
         "flysystem",
         "flysystem-ipfs"
     ],
-    "homepage": "https://github.com/openwse/flysystem-ipfs",
+    "homepage": "https://github.com/niftydrop/flysystem-ipfs",
     "license": "MIT",
     "require": {
-        "php": "^7.4",
-        "league/flysystem": "^2.0",
-        "openwse/ipfs-api": "^0.1"
+        "php": "^8.0",
+        "league/flysystem": "^3.0",
+        "niftydrop/ipfs-api": "dev-main"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.18",
