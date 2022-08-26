@@ -18,7 +18,7 @@
     "require": {
         "php": "^8.0",
         "league/flysystem": "^3.0",
-        "niftydrop/ipfs-api": "dev-main"
+        "niftydrop/ipfs-api": "main"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.18",
@@ -46,6 +46,12 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/niftydrop/ipfs-api.git"
+        }
+    ],
     "scripts": {
         "tests": [
             "@php ./vendor/bin/phpunit --verbose"
