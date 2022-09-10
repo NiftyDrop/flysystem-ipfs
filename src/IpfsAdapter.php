@@ -355,4 +355,9 @@ class IpfsAdapter implements FilesystemAdapter
     {
         return '/'.trim($this->prefixer->prefixPath($path), '/');
     }
+
+    public function directoryExists(string $path): bool
+    {
+        // TODO: Implement directoryExists() method.
+    }
 }
